@@ -11,8 +11,8 @@ function lock_it {
 # kill anti_people.py process
 kill $(ps aux | grep 'anti_people.py' | awk '{print $2}')
 
-# take picture
-source ${DIR_PATH}/take_picture.sh
+# take picture and replace the screen_saver.png
+imagesnap ~/Pictures/screen_savers/screen_saver.png
 
 # lock computer
 lock_it

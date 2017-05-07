@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-imagesnap ~/Desktop/$(date +%y%m%d%H%M%S).png
+# replace current picture with new picture
+imagesnap ~/Pictures/screen_savers/screen_saver.png

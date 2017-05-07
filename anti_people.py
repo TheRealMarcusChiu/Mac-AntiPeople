@@ -105,7 +105,7 @@ class KeyPoller:
 dir_path = os.path.dirname(os.path.abspath(__file__))
 
 script_stop = dir_path + '/stop.sh'
-script_guard = dir_path + '/guard.sh'
+script_guard = dir_path + '/guard_procedure.sh'
 
 command_stop = "os.system('" + script_stop + "')"
 command_guard = "os.system('" + script_guard + "')"
